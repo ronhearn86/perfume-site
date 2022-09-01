@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+body{
+    padding-top: 20%;
+    background-color:hsl(30, 38%, 92%);
+    width: 1440px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+   
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+h1{
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+}
+.left{
+
+    width: 50%;
+    height: 100%;
+}
+.right-side{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: hsl(0, 0%, 100%);
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px 80px;
+    border-radius: 5px;
+    color:hsl(0, 0%, 100%);
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+}
+footer {
+    font-size: 11px; text-align: center;
+    margin: auto auto;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+.main-image{
+    background-color:hsl(0, 0%, 100%);
+    display: flex;
+    width: 680px;
+    height: 560px;
+    margin:  auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-weight: lighter;
+}
+h2{
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+    margin-left: -80px;
+    margin-bottom: 10px;
+
+}
+p{
+    line-height:30px;
+    font-family: Montserrat;
+   color:hsl(228, 12%, 48%);
+    font-size: 15px;
+    margin-right: 25px;
+    margin-bottom: -10px;
+}
+h3{
+    margin-top: 40px;
+    font-weight: 400;
+    color:hsl(228, 12%, 48%);
+}
