@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product preview card component</title>
+  <title> Front End Project</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon">
 
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-
-<div class="main-image">
- 
-  <img class="left" src="images/image-product-desktop.jpg">
-
-<div class="right-side">
-    <h3>P E R F U M E</h3>
-
-    <h1>Gabrielle Essence Eau De Parfum</h1>
-
-    <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-    Perfumer-Creator for the House of CHANEL.</p>
-    <div class="inline">
-    <h2>$149.99</h2>
-    <h4>$169.99</h4>
+  <section class="section">
+    <div>
+        <div class="picture">
+          <img src="./images/image-product-desktop.jpg" alt="Photo of Gabrielle's Essence Eau De Parfum">
+        </div>
     </div>
-    <button><img src="images/icon-cart.svg"> &ensp;Add to Cart</button> 
-  </div>
-
-</div>
-
+    <div class="wrapper">
+        <div>
+          <h3 class="main-title">PERFUME</h3>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+      <div class="price">
+          <h2>$149.99</h2>
+          <span>$169.99</span>
+      </div>
+      <button class="buy-button">
+          <img src="./images/icon-cart.svg" alt="shopping cart icon">
+          Add to Cart
+      </button>
+    </div>
+  </section>
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ron Hearn</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ron Hearn</a>.
   </footer>
+
+
 </body>
+
 </html>
